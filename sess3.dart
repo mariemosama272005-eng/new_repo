@@ -5,9 +5,9 @@ for(int i=1;i<=20;i++){
   print(i);
 }
 //2 
-List Food=["pizza","icecream","cheese","Pasta","koshari"];
+List food=["pizza","icecream","cheese","Pasta","koshari"];
 //print them
-for(String f in Food){
+for(String f in food){
   print(f);
 }
 //3
@@ -22,12 +22,19 @@ print("Plz Enter a day number");
 int day=int.parse(stdin.readLineSync()!);
 switch(day){
   case 1:print("Monday");
+  break;
   case 2:print("Tuesday");
+  break;
   case 3:print("wednesday");
+  break;
   case 4:print("Thurday");
+  break;
   case 5:print("Friday");
+  break;
   case 6:print("saturday");
+  break;
   case 7:print("Sunday");
+  break;
 default:print("invalid day");
 }
 //5
@@ -50,8 +57,11 @@ List<String> names=["Mariem","Osama","Sara"];
 for(int i=0;i<names.length;i++){
   switch(i){
     case 0:print("Frist student: ${names[i]}");
+    break;
     case 1:print("Second student: ${names[i]}");
+    break;
     case 2:print("Third student: ${names[i]}");
+    break;
    
   }
   
